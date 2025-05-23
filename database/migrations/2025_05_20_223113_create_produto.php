@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('prd_nome');
             $table->double('prd_valor');
             $table->foreignId('sta_id')->constrained()->on('status')->references('sta_id')->onDelete('cascade');
-            $table->float('prd_percent_desconto', 2);
-            $table->date('prd_validade_desconto');
+            $table->float('prd_percent_desconto', 2)->nullable();
+            $table->date('prd_validade_desconto')->nullable();
             $table->foreignId('cla_id')->constrained()->on('classificacao')->references('cla_id')->onDelete('cascade');
             $table->timestamps();
         });
