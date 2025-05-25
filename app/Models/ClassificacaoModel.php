@@ -10,7 +10,7 @@ class ClassificacaoModel extends Model
     use HasFactory;
 
     protected $table = "classificacao";
-    protected $fillable = ['cla_id'];
+    protected $fillable = ['cla_id', 'cla_descricao'];
     protected $primaryKey = "cla_id";
     protected $increment = true;
     public $timestamps = true;

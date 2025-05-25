@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\GettersTrait;
 use App\Http\Controllers\ProductController;
 use App\Models\ClassificacaoModel;
 use App\Models\Status;
@@ -23,10 +24,7 @@ class ProductCreate extends Component
     #[Validate('required|min:1', as: "Classificação")]
     public $cla_id;
 
-    private function getClassificacoes()
-    {
-        return ClassificacaoModel::where("cla_id", '>', '0')->get();
-    }
+    use GettersTrait;
 
     public function save()
     {

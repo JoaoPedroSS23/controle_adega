@@ -1,0 +1,147 @@
+
+
+
+.menu {
+    background-color:  #a4a4a4;
+    width: 9%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.menu-list {
+    margin-top: 10rem;
+}
+
+.menuList {
+    list-style: none;
+    padding-left: 3px;
+}
+
+.menu-list ul li {
+    margin: 10px 4px 10px 0;
+    padding: 20px 3px;
+}
+
+.menu-item-list {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.menu-item-list:hover {
+    color: #242424;
+    cursor: pointer;
+    background: #4f4f4f;
+}
+
+.menuActive {
+    background: #7a7a7a ;
+    border-radius: 20%;
+}
+
+.content {
+    width: 80%;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.top-page {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+
+.button-cadastro {
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    background-color: #4f4f4f;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom:25px;
+    left: 1%;
+    border: #4f4f4f;
+    cursor: pointer;
+}
+
+.button-cadastro a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-cadastro a:hover {
+    color: #a4a4a4;
+}
+
+.breadcrumb-item a {
+    color: #a4a4a4;
+}
+
+.grid {
+    margin-top:3vh;
+    height: 96vh;
+    border-radius: 20px;
+    border: 1px solid #7a7a7a;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.headerGrid {
+    width: 100%;
+    border-bottom: 1px solid #7a7a7a;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.rowGrid {
+    padding: 8px 10px;
+    border-bottom: 1px solid #4f4f4f;
+    border-radius: 14px;
+}
+
+.itemGridContent{
+    color: #253342 !important;
+}
+
+
+.button-close {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.dropdownButtonList {
+    background: #a4a4a4 !important;
+}
+
+.formClassificacao {
+    width: 99%;
+    height: 45vh;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-small {
+    max-width: 60%;
+    max-height: 60vh;
+}
+
+.formCadastroClassificacao {
+    margin:auto;
+    min-height: 60%;
+    width: 100%;
+}
+
+.inputCadastro {
+
+}
